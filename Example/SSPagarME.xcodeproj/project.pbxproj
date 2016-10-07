@@ -497,7 +497,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD5014CEF711447C66BFDA41 /* Pods-SSPagarME_Example.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YP463B7JMK;
 				INFOPLIST_FILE = SSPagarME/Info.plist;
@@ -513,7 +512,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D7486497EBD3F5ADEB2BC7CD /* Pods-SSPagarME_Example.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YP463B7JMK;
 				INFOPLIST_FILE = SSPagarME/Info.plist;

@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         let pagarME = SSPagarME.sharedInstance
         
         // card
-        pagarME.card.cardNumber = "11"
+        pagarME.card.cardNumber = "5555111111111111"
         pagarME.card.cardHolderName = "Rodrigo Priolo"
         pagarME.card.cardExpirationMonth = "05"
         pagarME.card.cardExpirationYear = "18"

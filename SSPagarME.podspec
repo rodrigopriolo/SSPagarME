@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/smart-side/SSPagarME"
   s.license      = "MIT"
-  s.author             = { "Rodrigo Priolo" => "priolo@smartside.com.br" }
+  s.author       = { "Rodrigo Priolo" => "priolo@smartside.com.br" }
   s.platform     = :ios, '9.0'
   s.source       = { :git => "https://github.com/smart-side/SSPagarME.git", :tag => s.version.to_s }
   s.source_files = "Pod", "Pod/Classes/*.{swift,h,m}"

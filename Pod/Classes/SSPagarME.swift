@@ -150,6 +150,11 @@ public class SSPagarME: NSObject {
         userDefaults.setValue(key, forKeyPath: ENCRYPTION_KEY)
     }
     
+    
+    /// Public Method generator Card Hash with Pagar.me
+    ///
+    /// - parameter success: Return card hash code (String)
+    /// - parameter failure: Return message Error (String)
     public func generateCardHash(success: @escaping SuccessCardHash, failure: @escaping FailureCardHash) {
         if let message = self.card.check() {
             failure(message)
