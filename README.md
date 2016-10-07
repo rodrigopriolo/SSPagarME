@@ -40,9 +40,9 @@ pagarME.card.cardCVV = "111"
 
 // get card hash
 SSPagarME.sharedInstance.generateCardHash(success: { (card_hash) in
-print("card_hash: \(card_hash)")
+	print("card_hash: \(card_hash)")
 }) { (message) in
-print("error message: \(message)")
+	print("error message: \(message)")
 }
 ```
 
@@ -74,10 +74,10 @@ pagarME.customer.number = "986932196"
 
 // transition
 SSPagarME.sharedInstance.transaction(amount: "1000", success: { (data) in
-print("data transaction: \(data)")
+	print("data transaction: \(data)")
 })
 { (message) in
-print("error message: \(message)")
+	print("error message: \(message)")
 }
 ```
 
