@@ -1,0 +1,6 @@
+framework module SSPagarME {
+  umbrella header "SSPagarME-umbrella.h"
+
+  export *
+  module * { export * }
+}
