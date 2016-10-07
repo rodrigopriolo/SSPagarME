@@ -1,23 +1,26 @@
 {
   "name": "SSPagarME",
-  "version": "1.0",
-  "summary": "Facilitador do gateway de pagamento pagar.me",
-  "description": "\"Facilita a transação com cartão de crédito com o pagar.me, gerando o card_hash necessário.\"",
-  "homepage": "https://github.com/smart-side/SSPagarME",
-  "license": "MIT",
+  "version": "0.1.5",
+  "summary": "Generator Card Hash with Pagar.me, swift 3.0.",
+  "description": "\"Generator Card Hash with Pagar.me, swift 3.0\"",
+  "homepage": "https://github.com/rodrigopriolo/SSPagarME",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
   "authors": {
     "Rodrigo Priolo": "priolo@smartside.com.br"
   },
-  "platforms": {
-    "ios": "8.0"
-  },
   "source": {
-    "git": "https://github.com/smart-side/SSPagarME.git",
-    "tag": "1.0"
+    "git": "https://github.com/rodrigopriolo/SSPagarME.git",
+    "tag": "0.1.5"
+  },
+  "platforms": {
+    "ios": "9.0"
   },
   "source_files": [
-    "Pod",
-    "Pod/Classes/*.{swift,h,m}"
+    "*",
+    "SSPagarME"
   ],
   "requires_arc": true,
   "frameworks": "Foundation",

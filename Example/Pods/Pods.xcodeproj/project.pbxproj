@@ -7,125 +7,158 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23E31E6A68D95BE8A6E4D603B7547884 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 699118D7DDD5F335E4FB8B17DC0F12D2 /* Pods-Example-dummy.m */; };
-		3D71F9A12D8FD8BDD80E69FD47FC83EE /* SSPagarME.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886C048A177477A62F949D40D4E8317F /* SSPagarME.swift */; };
-		4106699628C70F46919E45C19E740A37 /* SwiftyRSA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2853EC6F251AC9C3AF5E4B12D43EC127 /* SwiftyRSA-dummy.m */; };
-		52B902A99354EB5DE1C16BD8648F0003 /* SwiftyRSA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E24ACA533DF2C78B3A3AFEAB4A05FA8 /* SwiftyRSA.framework */; };
-		611EDFD818C286B3E543D32C8B2751B3 /* NSData+SHA.m in Sources */ = {isa = PBXBuildFile; fileRef = C374B0FEE9CB884A66E22AAE5AA8783A /* NSData+SHA.m */; };
-		7069F8652C5E56B473C44DC34CD715CD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619905A81C8FFA416A1A535784A246DD /* Security.framework */; };
-		7BE4F4A82A9395F873F36DC168A1745D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10172AA870F904142866D9B9E78EB47C /* Foundation.framework */; };
-		7C2A2F84E6FE2A4DD858E35AD37BC19B /* SSPagarME-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A723CF32CFB90B86C2ADBA43B112AE /* SSPagarME-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A107DC9E0B2FA3384BA69DC2A387CA46 /* SwiftyRSA.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D04F4DCF3CF931EA53740EA4D3467A /* SwiftyRSA.swift */; };
-		A4E659EF1AA9027A9066B88FC6234FCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10172AA870F904142866D9B9E78EB47C /* Foundation.framework */; };
-		AF4375BBB57B74549AAA747E51BAED88 /* SSPagarME-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E4D723391D943490F0E328520B855 /* SSPagarME-dummy.m */; };
-		BF685E7B29AFEAFE63BD84305D086939 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9BDE82371C83FA9AE91B05F77ACAA36 /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3FF4E68478BAFA1484B0114DE650498 /* Data+SHA.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E473525D860324E4618D2C85C33B0 /* Data+SHA.swift */; };
-		DC83B2822C69AA13E3901CF03395F82A /* SwiftyRSA.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED1220FBFEED35B7FC988B65818180C /* SwiftyRSA.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E079A4F4D3B909D1BE233C786A77A1F4 /* NSData+SHA.h in Headers */ = {isa = PBXBuildFile; fileRef = A10A907CCC8AB65DDDA77CCBA035692A /* NSData+SHA.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E97A1258A4A5685A77E8BFBE90CB27CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10172AA870F904142866D9B9E78EB47C /* Foundation.framework */; };
-		F66D07A99D75E265E47D8996DFE431C4 /* SwiftyRSA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D230CAAC43D00073506FC85990C6272 /* SwiftyRSA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0134BA42F29478BE2A96718374B73E6D /* SSPagarME-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A98E02B838132138D5F9EA5FCFB77C /* SSPagarME-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05AFAC1C2687B60291E79FE1CA99B676 /* Pods-SSPagarME_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7294EAE8CD0C68E1BE183F6E8A9FCB9 /* Pods-SSPagarME_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A3889FCC37431185F32D2118DD49968 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 619905A81C8FFA416A1A535784A246DD /* Security.framework */; };
+		20CFC8A87E3085AD7EFEF02BEB72635D /* SSPagarME.podspec in Sources */ = {isa = PBXBuildFile; fileRef = 66E48B384B0F19A46FE193F322B3B758 /* SSPagarME.podspec */; };
+		23144D2B483A5EE20C4DFF13FFF406F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10172AA870F904142866D9B9E78EB47C /* Foundation.framework */; };
+		2E9E9809DDFEE1D43BD8AF43218E9CDC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3C84D35CA77DA6C9238A3D18CCEDAC06 /* README.md */; };
+		3FFFAD98257C88779A8012444828D51C /* NSData+SHA.m in Sources */ = {isa = PBXBuildFile; fileRef = C374B0FEE9CB884A66E22AAE5AA8783A /* NSData+SHA.m */; };
+		4346FA40127F3089352F226EB3B19868 /* SSPagarME-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F766C38E7EC7C2D4B9CAB75AF0592571 /* SSPagarME-dummy.m */; };
+		4A7F5638DDCAD525E7260F6AAF25792C /* Pods-SSPagarME_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFCFFE6734FF9FAA15047011B054CA7 /* Pods-SSPagarME_Example-dummy.m */; };
+		4D623510F777B625FAF60C9A74CE8C2F /* SwiftyRSA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2853EC6F251AC9C3AF5E4B12D43EC127 /* SwiftyRSA-dummy.m */; };
+		59AFED28A24D4F06AEC7AE98CC35BF0F /* SwiftyRSA.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED1220FBFEED35B7FC988B65818180C /* SwiftyRSA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CA3BF93DA3CFC8CA7245963A5EC27B5 /* Pods-SSPagarME_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5599D97660E08E8DCFFA54CB1402C8B7 /* Pods-SSPagarME_Tests-dummy.m */; };
+		61C65EBAB11B2BEDC1E95FB79D8E2E3C /* Pods-SSPagarME_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C858910DDA6E05809A25299B0CE99377 /* Pods-SSPagarME_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		628E0FF64017BD5B2FB2753FE4164B00 /* NSData+SHA.h in Headers */ = {isa = PBXBuildFile; fileRef = A10A907CCC8AB65DDDA77CCBA035692A /* NSData+SHA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C92E79C9ADDA350A9D93C1367402DE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10172AA870F904142866D9B9E78EB47C /* Foundation.framework */; };
+		85C8EB749CBC9F1D5E907D4B47C1CB8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10172AA870F904142866D9B9E78EB47C /* Foundation.framework */; };
+		AC5DA1930FA85BAD67A5DB5CD5B9AA64 /* Data+SHA.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E473525D860324E4618D2C85C33B0 /* Data+SHA.swift */; };
+		C29B8DF26862F19AD6AC9F3585DF652A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10172AA870F904142866D9B9E78EB47C /* Foundation.framework */; };
+		C461108F0932016D8C98014C85C6A695 /* SwiftyRSA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D230CAAC43D00073506FC85990C6272 /* SwiftyRSA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D48F0510E3A8402402481B9E267FA916 /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = 854C80C1F6C2F7C7C45139E266ABFD3C /* LICENSE */; };
+		F227C8C313C9BE53A1CECA8629ABF84A /* SwiftyRSA.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D04F4DCF3CF931EA53740EA4D3467A /* SwiftyRSA.swift */; };
+		FA65AE76C78904366B81FA178BB17A1F /* SwiftyRSA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E24ACA533DF2C78B3A3AFEAB4A05FA8 /* SwiftyRSA.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		02F8407EB627DE5DF7A93F6DB754886D /* PBXContainerItemProxy */ = {
+		805BE7B69E0B7B446960221ED8E2FB45 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2BE07A80DDFE0596FA483BC86BF8475F;
+			remoteGlobalIDString = F643092E2F564C30F007C914FA53A5C7;
 			remoteInfo = SwiftyRSA;
 		};
-		38C14FC75DFBD63DB9732F7ACC4C1A7F /* PBXContainerItemProxy */ = {
+		9CC0AEE78C69B5D3D46C42AF0AE947EA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 862DCF24583CF8C8C822426568C96CBF;
+			remoteGlobalIDString = 85642A9C2B533B6183AA6365501D0366;
 			remoteInfo = SSPagarME;
 		};
-		45D3D87BC7163E8A6AC4F225CE9B41A2 /* PBXContainerItemProxy */ = {
+		A01011BBD7B3341FC816E954AB884DC1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2BE07A80DDFE0596FA483BC86BF8475F;
+			remoteGlobalIDString = F643092E2F564C30F007C914FA53A5C7;
 			remoteInfo = SwiftyRSA;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01E6907CF2644EB1CF8E23F708A3DA0B /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
-		0F6D1F288D797F274E3C0AD7277EE033 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02A19FF9909A6BAD6726AFC0DA82B7E4 /* Pods-SSPagarME_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSPagarME_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0CFCFFE6734FF9FAA15047011B054CA7 /* Pods-SSPagarME_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSPagarME_Example-dummy.m"; sourceTree = "<group>"; };
 		10172AA870F904142866D9B9E78EB47C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		119072C64A19799964E1620D83F514FB /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
-		149054C495E8EC590CAB4C524133016F /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		138D2FDAC94CC3BF656B67C3360F7295 /* Pods-SSPagarME_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSPagarME_Example.release.xcconfig"; sourceTree = "<group>"; };
+		159C12961C0895264AF00635BC05BC63 /* SSPagarME.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SSPagarME.modulemap; sourceTree = "<group>"; };
+		27A26CE5DF9FA0122FF7E6C1FBA0E963 /* Pods-SSPagarME_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSPagarME_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2853EC6F251AC9C3AF5E4B12D43EC127 /* SwiftyRSA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyRSA-dummy.m"; sourceTree = "<group>"; };
+		3C84D35CA77DA6C9238A3D18CCEDAC06 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3ED1220FBFEED35B7FC988B65818180C /* SwiftyRSA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyRSA.h; path = SwiftyRSA/SwiftyRSA.h; sourceTree = "<group>"; };
-		4C1E4D723391D943490F0E328520B855 /* SSPagarME-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSPagarME-dummy.m"; sourceTree = "<group>"; };
+		3F4C6F765EDAD038EE62D91C5F5D6D50 /* Pods-SSPagarME_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SSPagarME_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3FCC64BC117087281C63C7DF459A7DE0 /* Pods-SSPagarME_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSPagarME_Tests-resources.sh"; sourceTree = "<group>"; };
+		4086605443EDA7BE21499FD03F79DAC6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4281DB962E9340272F12E8ABF111A5FB /* Pods-SSPagarME_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSPagarME_Example-resources.sh"; sourceTree = "<group>"; };
 		4D230CAAC43D00073506FC85990C6272 /* SwiftyRSA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyRSA-umbrella.h"; sourceTree = "<group>"; };
-		552550F3F912264E5D073F8893691F88 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
+		5599D97660E08E8DCFFA54CB1402C8B7 /* Pods-SSPagarME_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSPagarME_Tests-dummy.m"; sourceTree = "<group>"; };
+		587C3BEAD742D6D27F37D0A9874AE0F8 /* Pods_SSPagarME_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSPagarME_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59C34575D40FAB59B99DB5DBACE94770 /* SSPagarME-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSPagarME-prefix.pch"; sourceTree = "<group>"; };
+		5ADE816AB554C22A4FBA1247ABD2E15E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		619905A81C8FFA416A1A535784A246DD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		65748130E6324F884912419CC5082C4E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		687ED7CFBD7B446CE6D883F9187F40DA /* SSPagarME.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSPagarME.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		699118D7DDD5F335E4FB8B17DC0F12D2 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		6994F96BC90EE017FBEBD36C5EDC3781 /* SSPagarME.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSPagarME.xcconfig; sourceTree = "<group>"; };
-		6AC470564FEEAD5DFA8707239F2A6078 /* SSPagarME.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SSPagarME.modulemap; sourceTree = "<group>"; };
-		764D33E23CE6C1111110B04F5CBADADB /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		66A98E02B838132138D5F9EA5FCFB77C /* SSPagarME-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSPagarME-umbrella.h"; sourceTree = "<group>"; };
+		66E48B384B0F19A46FE193F322B3B758 /* SSPagarME.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = SSPagarME.podspec; sourceTree = "<group>"; };
 		7E24ACA533DF2C78B3A3AFEAB4A05FA8 /* SwiftyRSA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyRSA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		886C048A177477A62F949D40D4E8317F /* SSPagarME.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SSPagarME.swift; sourceTree = "<group>"; };
+		854C80C1F6C2F7C7C45139E266ABFD3C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8AAA49A88B16A80BFA78AED7490E176D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F7511971A7BC0C19220A456FC950963 /* Pods-SSPagarME_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSPagarME_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		90AF1A9D556C22384ACB2398D13C7665 /* SwiftyRSA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyRSA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		946F3147A0D96557175960D57CD46A53 /* SSPagarME.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSPagarME.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D484530CCBFD34667715952DF60CFA6 /* Pods-SSPagarME_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSPagarME_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A10A907CCC8AB65DDDA77CCBA035692A /* NSData+SHA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+SHA.h"; path = "SwiftyRSA/NSData+SHA.h"; sourceTree = "<group>"; };
 		A17EABCB72769FA440D04ED0F55C6A5F /* SwiftyRSA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyRSA.modulemap; sourceTree = "<group>"; };
 		A1D04F4DCF3CF931EA53740EA4D3467A /* SwiftyRSA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyRSA.swift; path = SwiftyRSA/SwiftyRSA.swift; sourceTree = "<group>"; };
-		A661FECCEBFF9D01869EE3B29C4C1EFF /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A8C0FCCA8AD14E9F55D30C91FBE5FD28 /* Pods-SSPagarME_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSPagarME_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A9B3E9A737133519894BC9C042019676 /* SSPagarME.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSPagarME.xcconfig; sourceTree = "<group>"; };
+		B3472DF1C308EAC0D04E91EB27F06F56 /* Pods-SSPagarME_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSPagarME_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C2903F379C96DC336B3C7E8A3A299B4C /* Pods-SSPagarME_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SSPagarME_Example.modulemap"; sourceTree = "<group>"; };
 		C374B0FEE9CB884A66E22AAE5AA8783A /* NSData+SHA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+SHA.m"; path = "SwiftyRSA/NSData+SHA.m"; sourceTree = "<group>"; };
 		C40DA2823D3FB8F9383ED7F3D5FF24A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9BDE82371C83FA9AE91B05F77ACAA36 /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
+		C7ABA2146D05476702FED62F4D196BE4 /* Pods-SSPagarME_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSPagarME_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C858910DDA6E05809A25299B0CE99377 /* Pods-SSPagarME_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSPagarME_Example-umbrella.h"; sourceTree = "<group>"; };
 		CC1DA25EC163EE27F1580C5277DD5067 /* SwiftyRSA.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyRSA.xcconfig; sourceTree = "<group>"; };
 		CDF26F0C79E29F8D15C041161EE2CC32 /* SwiftyRSA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyRSA-prefix.pch"; sourceTree = "<group>"; };
-		E4A723CF32CFB90B86C2ADBA43B112AE /* SSPagarME-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSPagarME-umbrella.h"; sourceTree = "<group>"; };
-		E512A5F985F876750237FD237C3AEEDA /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		E578FC07FFA02508EFE66C5350993B7B /* SwiftyRSA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyRSA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48B519F033169A246CDB9BF7E214AD0 /* Pods-SSPagarME_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SSPagarME_Tests.modulemap"; sourceTree = "<group>"; };
+		E34DDEF716D3F479DA49255590693448 /* Pods-SSPagarME_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SSPagarME_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E7294EAE8CD0C68E1BE183F6E8A9FCB9 /* Pods-SSPagarME_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSPagarME_Tests-umbrella.h"; sourceTree = "<group>"; };
 		ED9E473525D860324E4618D2C85C33B0 /* Data+SHA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+SHA.swift"; path = "SwiftyRSA/Data+SHA.swift"; sourceTree = "<group>"; };
-		EFFB74AAA6B2AE8DABF0E88E61E09178 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F63F4CBA86204BF74FE4A0513E9E6331 /* SSPagarME-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSPagarME-prefix.pch"; sourceTree = "<group>"; };
+		F4066FBAAC555B6E27286833C8E03A05 /* Pods_SSPagarME_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSPagarME_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F766C38E7EC7C2D4B9CAB75AF0592571 /* SSPagarME-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSPagarME-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6B7C324F8F0E5D9804EEDD221451DA7C /* Frameworks */ = {
+		1EADEE5B6F118886EAD75DA65EAC1DAD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E97A1258A4A5685A77E8BFBE90CB27CB /* Foundation.framework in Frameworks */,
-				52B902A99354EB5DE1C16BD8648F0003 /* SwiftyRSA.framework in Frameworks */,
+				C29B8DF26862F19AD6AC9F3585DF652A /* Foundation.framework in Frameworks */,
+				0A3889FCC37431185F32D2118DD49968 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		792615F1BF9F0B8F61CD150916A4937F /* Frameworks */ = {
+		44A95CB700E6FC0184C40A9BF63D0EE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4E659EF1AA9027A9066B88FC6234FCE /* Foundation.framework in Frameworks */,
-				7069F8652C5E56B473C44DC34CD715CD /* Security.framework in Frameworks */,
+				6C92E79C9ADDA350A9D93C1367402DE2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C8265AB079375ADC8164B1380EAA87B /* Frameworks */ = {
+		47F467EE086D9775F510EE73E5D37AE7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BE4F4A82A9395F873F36DC168A1745D /* Foundation.framework in Frameworks */,
+				23144D2B483A5EE20C4DFF13FFF406F6 /* Foundation.framework in Frameworks */,
+				FA65AE76C78904366B81FA178BB17A1F /* SwiftyRSA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DC8A464DA48D3F8738ECF1755AB8C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C8EB749CBC9F1D5E907D4B47C1CB8F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		24BF68E980C2D0863C2785CA0A9CB7EE /* Products */ = {
+		15A4B45FA98B704824691951353B0087 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0F6D1F288D797F274E3C0AD7277EE033 /* Pods_Example.framework */,
-				687ED7CFBD7B446CE6D883F9187F40DA /* SSPagarME.framework */,
-				E578FC07FFA02508EFE66C5350993B7B /* SwiftyRSA.framework */,
+				CB7A36B4FBE392ADF769C341777F23FD /* Pods-SSPagarME_Example */,
+				7B2F2B76D61D3AC58F0751A04878564C /* Pods-SSPagarME_Tests */,
 			);
-			name = Products;
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1DD577ADB8BA1945C2DE93F74C6B522B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9560983175A7D9FE62498512415C40F /* SSPagarME */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		30BDC49E46E356EAB8D0EEAD337296B5 /* SwiftyRSA */ = {
@@ -141,53 +174,33 @@
 			path = SwiftyRSA;
 			sourceTree = "<group>";
 		};
-		33C2C961EB5440C219DA4D487E49FF20 /* Classes */ = {
+		7B2F2B76D61D3AC58F0751A04878564C /* Pods-SSPagarME_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				886C048A177477A62F949D40D4E8317F /* SSPagarME.swift */,
+				5ADE816AB554C22A4FBA1247ABD2E15E /* Info.plist */,
+				D48B519F033169A246CDB9BF7E214AD0 /* Pods-SSPagarME_Tests.modulemap */,
+				E34DDEF716D3F479DA49255590693448 /* Pods-SSPagarME_Tests-acknowledgements.markdown */,
+				02A19FF9909A6BAD6726AFC0DA82B7E4 /* Pods-SSPagarME_Tests-acknowledgements.plist */,
+				5599D97660E08E8DCFFA54CB1402C8B7 /* Pods-SSPagarME_Tests-dummy.m */,
+				A8C0FCCA8AD14E9F55D30C91FBE5FD28 /* Pods-SSPagarME_Tests-frameworks.sh */,
+				3FCC64BC117087281C63C7DF459A7DE0 /* Pods-SSPagarME_Tests-resources.sh */,
+				E7294EAE8CD0C68E1BE183F6E8A9FCB9 /* Pods-SSPagarME_Tests-umbrella.h */,
+				9D484530CCBFD34667715952DF60CFA6 /* Pods-SSPagarME_Tests.debug.xcconfig */,
+				C7ABA2146D05476702FED62F4D196BE4 /* Pods-SSPagarME_Tests.release.xcconfig */,
 			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		425BD7E627AB04E4FD958DFFB7E3D500 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				33C2C961EB5440C219DA4D487E49FF20 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		6A4F6A14E3FB951290E4531728B7A461 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FE9811ABEB5931E154211FCA14B78350 /* Pods-Example */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		77583FF009DA40B967E0BB1FA4C3C1DD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				65748130E6324F884912419CC5082C4E /* Info.plist */,
-				6AC470564FEEAD5DFA8707239F2A6078 /* SSPagarME.modulemap */,
-				6994F96BC90EE017FBEBD36C5EDC3781 /* SSPagarME.xcconfig */,
-				4C1E4D723391D943490F0E328520B855 /* SSPagarME-dummy.m */,
-				F63F4CBA86204BF74FE4A0513E9E6331 /* SSPagarME-prefix.pch */,
-				E4A723CF32CFB90B86C2ADBA43B112AE /* SSPagarME-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SSPagarME";
+			name = "Pods-SSPagarME_Tests";
+			path = "Target Support Files/Pods-SSPagarME_Tests";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				8AF41B825C3EA814B2773BD35E3BF075 /* Development Pods */,
+				1DD577ADB8BA1945C2DE93F74C6B522B /* Development Pods */,
 				C50639D400A585639DF9881AE9EC1785 /* Frameworks */,
 				E4622D7D391A1BC8DE4BA16BB3D21334 /* Pods */,
-				24BF68E980C2D0863C2785CA0A9CB7EE /* Products */,
-				6A4F6A14E3FB951290E4531728B7A461 /* Targets Support Files */,
+				DAC36329FA2FBB40870A521336E7B43E /* Products */,
+				15A4B45FA98B704824691951353B0087 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -205,14 +218,6 @@
 			path = "../Target Support Files/SwiftyRSA";
 			sourceTree = "<group>";
 		};
-		8AF41B825C3EA814B2773BD35E3BF075 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F9C64C60096A97E07325F96CD823C2DB /* SSPagarME */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		C50639D400A585639DF9881AE9EC1785 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -222,12 +227,67 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C7F31952DD15681CD8E97A32E657C87E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AAA49A88B16A80BFA78AED7490E176D /* Info.plist */,
+				159C12961C0895264AF00635BC05BC63 /* SSPagarME.modulemap */,
+				A9B3E9A737133519894BC9C042019676 /* SSPagarME.xcconfig */,
+				F766C38E7EC7C2D4B9CAB75AF0592571 /* SSPagarME-dummy.m */,
+				59C34575D40FAB59B99DB5DBACE94770 /* SSPagarME-prefix.pch */,
+				66A98E02B838132138D5F9EA5FCFB77C /* SSPagarME-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SSPagarME";
+			sourceTree = "<group>";
+		};
+		CB7A36B4FBE392ADF769C341777F23FD /* Pods-SSPagarME_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4086605443EDA7BE21499FD03F79DAC6 /* Info.plist */,
+				C2903F379C96DC336B3C7E8A3A299B4C /* Pods-SSPagarME_Example.modulemap */,
+				3F4C6F765EDAD038EE62D91C5F5D6D50 /* Pods-SSPagarME_Example-acknowledgements.markdown */,
+				B3472DF1C308EAC0D04E91EB27F06F56 /* Pods-SSPagarME_Example-acknowledgements.plist */,
+				0CFCFFE6734FF9FAA15047011B054CA7 /* Pods-SSPagarME_Example-dummy.m */,
+				27A26CE5DF9FA0122FF7E6C1FBA0E963 /* Pods-SSPagarME_Example-frameworks.sh */,
+				4281DB962E9340272F12E8ABF111A5FB /* Pods-SSPagarME_Example-resources.sh */,
+				C858910DDA6E05809A25299B0CE99377 /* Pods-SSPagarME_Example-umbrella.h */,
+				8F7511971A7BC0C19220A456FC950963 /* Pods-SSPagarME_Example.debug.xcconfig */,
+				138D2FDAC94CC3BF656B67C3360F7295 /* Pods-SSPagarME_Example.release.xcconfig */,
+			);
+			name = "Pods-SSPagarME_Example";
+			path = "Target Support Files/Pods-SSPagarME_Example";
+			sourceTree = "<group>";
+		};
+		DAC36329FA2FBB40870A521336E7B43E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				587C3BEAD742D6D27F37D0A9874AE0F8 /* Pods_SSPagarME_Example.framework */,
+				F4066FBAAC555B6E27286833C8E03A05 /* Pods_SSPagarME_Tests.framework */,
+				946F3147A0D96557175960D57CD46A53 /* SSPagarME.framework */,
+				90AF1A9D556C22384ACB2398D13C7665 /* SwiftyRSA.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		E4622D7D391A1BC8DE4BA16BB3D21334 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				30BDC49E46E356EAB8D0EEAD337296B5 /* SwiftyRSA */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E9560983175A7D9FE62498512415C40F /* SSPagarME */ = {
+			isa = PBXGroup;
+			children = (
+				854C80C1F6C2F7C7C45139E266ABFD3C /* LICENSE */,
+				3C84D35CA77DA6C9238A3D18CCEDAC06 /* README.md */,
+				66E48B384B0F19A46FE193F322B3B758 /* SSPagarME.podspec */,
+				C7F31952DD15681CD8E97A32E657C87E /* Support Files */,
+			);
+			name = SSPagarME;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		ECC033CC744A6AB44CD1EA742EF1B2D4 /* iOS */ = {
@@ -239,73 +299,107 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F9C64C60096A97E07325F96CD823C2DB /* SSPagarME */ = {
-			isa = PBXGroup;
-			children = (
-				425BD7E627AB04E4FD958DFFB7E3D500 /* Pod */,
-				77583FF009DA40B967E0BB1FA4C3C1DD /* Support Files */,
-			);
-			name = SSPagarME;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		FE9811ABEB5931E154211FCA14B78350 /* Pods-Example */ = {
-			isa = PBXGroup;
-			children = (
-				EFFB74AAA6B2AE8DABF0E88E61E09178 /* Info.plist */,
-				119072C64A19799964E1620D83F514FB /* Pods-Example.modulemap */,
-				A661FECCEBFF9D01869EE3B29C4C1EFF /* Pods-Example-acknowledgements.markdown */,
-				764D33E23CE6C1111110B04F5CBADADB /* Pods-Example-acknowledgements.plist */,
-				699118D7DDD5F335E4FB8B17DC0F12D2 /* Pods-Example-dummy.m */,
-				552550F3F912264E5D073F8893691F88 /* Pods-Example-frameworks.sh */,
-				01E6907CF2644EB1CF8E23F708A3DA0B /* Pods-Example-resources.sh */,
-				C9BDE82371C83FA9AE91B05F77ACAA36 /* Pods-Example-umbrella.h */,
-				149054C495E8EC590CAB4C524133016F /* Pods-Example.debug.xcconfig */,
-				E512A5F985F876750237FD237C3AEEDA /* Pods-Example.release.xcconfig */,
-			);
-			name = "Pods-Example";
-			path = "Target Support Files/Pods-Example";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		23A45E3B02C97A5F621A5E263B003D81 /* Headers */ = {
+		B23C19927977BE89F63A0275FF6E20EA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF685E7B29AFEAFE63BD84305D086939 /* Pods-Example-umbrella.h in Headers */,
+				05AFAC1C2687B60291E79FE1CA99B676 /* Pods-SSPagarME_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E994059320C75EDBBEBAF48A1F9AA1C3 /* Headers */ = {
+		B9215377639357957FDBC07DE52EE703 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C2A2F84E6FE2A4DD858E35AD37BC19B /* SSPagarME-umbrella.h in Headers */,
+				61C65EBAB11B2BEDC1E95FB79D8E2E3C /* Pods-SSPagarME_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC21ED14D2D9742ABA4A4E5A97787484 /* Headers */ = {
+		E7F61EC022350A11CFB08764F9C19D1C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E079A4F4D3B909D1BE233C786A77A1F4 /* NSData+SHA.h in Headers */,
-				F66D07A99D75E265E47D8996DFE431C4 /* SwiftyRSA-umbrella.h in Headers */,
-				DC83B2822C69AA13E3901CF03395F82A /* SwiftyRSA.h in Headers */,
+				628E0FF64017BD5B2FB2753FE4164B00 /* NSData+SHA.h in Headers */,
+				C461108F0932016D8C98014C85C6A695 /* SwiftyRSA-umbrella.h in Headers */,
+				59AFED28A24D4F06AEC7AE98CC35BF0F /* SwiftyRSA.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E8D1557240D8AC6417D23BB0D08E94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0134BA42F29478BE2A96718374B73E6D /* SSPagarME-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2BE07A80DDFE0596FA483BC86BF8475F /* SwiftyRSA */ = {
+		3654AC99321958602A793162451CCC67 /* Pods-SSPagarME_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F9653D61DD7A55FCF112EAFCFB193A38 /* Build configuration list for PBXNativeTarget "SwiftyRSA" */;
+			buildConfigurationList = 49CF8C9D313190477EA91FF09FADE157 /* Build configuration list for PBXNativeTarget "Pods-SSPagarME_Tests" */;
 			buildPhases = (
-				DD90507A48850D28BBAA8755D10647C8 /* Sources */,
-				792615F1BF9F0B8F61CD150916A4937F /* Frameworks */,
-				FC21ED14D2D9742ABA4A4E5A97787484 /* Headers */,
+				441207B34F451A2A4A555BB8182A2781 /* Sources */,
+				72DC8A464DA48D3F8738ECF1755AB8C5 /* Frameworks */,
+				B23C19927977BE89F63A0275FF6E20EA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SSPagarME_Tests";
+			productName = "Pods-SSPagarME_Tests";
+			productReference = F4066FBAAC555B6E27286833C8E03A05 /* Pods_SSPagarME_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		85642A9C2B533B6183AA6365501D0366 /* SSPagarME */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BCC126A110033E4DF9D77F6730BAAAA /* Build configuration list for PBXNativeTarget "SSPagarME" */;
+			buildPhases = (
+				D7FBB905C3D9EA6EE377C3CA11E32ABB /* Sources */,
+				47F467EE086D9775F510EE73E5D37AE7 /* Frameworks */,
+				F1E8D1557240D8AC6417D23BB0D08E94 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6403695A50DDD51B1D12D7720469D5D4 /* PBXTargetDependency */,
+			);
+			name = SSPagarME;
+			productName = SSPagarME;
+			productReference = 946F3147A0D96557175960D57CD46A53 /* SSPagarME.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB271A93B99DDEF314731CBB68FA4EB9 /* Pods-SSPagarME_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 123DDD9DCD7562FC7AC027A9F467EF17 /* Build configuration list for PBXNativeTarget "Pods-SSPagarME_Example" */;
+			buildPhases = (
+				7884D95272E278C7E890099750E97E9B /* Sources */,
+				44A95CB700E6FC0184C40A9BF63D0EE8 /* Frameworks */,
+				B9215377639357957FDBC07DE52EE703 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C29E922E8196EDDBC4CBDB8723AE55E4 /* PBXTargetDependency */,
+				1B9D9AEE0432DE9446CA4E667CC7CD35 /* PBXTargetDependency */,
+			);
+			name = "Pods-SSPagarME_Example";
+			productName = "Pods-SSPagarME_Example";
+			productReference = 587C3BEAD742D6D27F37D0A9874AE0F8 /* Pods_SSPagarME_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F643092E2F564C30F007C914FA53A5C7 /* SwiftyRSA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF5026D72B1ADAEB40E194D55116584 /* Build configuration list for PBXNativeTarget "SwiftyRSA" */;
+			buildPhases = (
+				9CCA454799EE5E77E70AC5A74C646E50 /* Sources */,
+				1EADEE5B6F118886EAD75DA65EAC1DAD /* Frameworks */,
+				E7F61EC022350A11CFB08764F9C19D1C /* Headers */,
 			);
 			buildRules = (
 			);
@@ -313,44 +407,7 @@
 			);
 			name = SwiftyRSA;
 			productName = SwiftyRSA;
-			productReference = E578FC07FFA02508EFE66C5350993B7B /* SwiftyRSA.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		4B344E1B59323125AFA7D00E45808F8B /* Pods-Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2845C2EB70BC32F5F58A4690D0A267CB /* Build configuration list for PBXNativeTarget "Pods-Example" */;
-			buildPhases = (
-				64E02FC5D66A64E7247E802D656D4F4D /* Sources */,
-				8C8265AB079375ADC8164B1380EAA87B /* Frameworks */,
-				23A45E3B02C97A5F621A5E263B003D81 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5776AADD109FA62061D0D0274CB4D25A /* PBXTargetDependency */,
-				93F63F4FC09CF612B53D7D95849C5DAA /* PBXTargetDependency */,
-			);
-			name = "Pods-Example";
-			productName = "Pods-Example";
-			productReference = 0F6D1F288D797F274E3C0AD7277EE033 /* Pods_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		862DCF24583CF8C8C822426568C96CBF /* SSPagarME */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9987DD7A8A382995EE989C8A65B0B668 /* Build configuration list for PBXNativeTarget "SSPagarME" */;
-			buildPhases = (
-				84078FF550CD6326536365D25D3D4629 /* Sources */,
-				6B7C324F8F0E5D9804EEDD221451DA7C /* Frameworks */,
-				E994059320C75EDBBEBAF48A1F9AA1C3 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				607CAD06E9EA8E77160DE5F929029AE0 /* PBXTargetDependency */,
-			);
-			name = SSPagarME;
-			productName = SSPagarME;
-			productReference = 687ED7CFBD7B446CE6D883F9187F40DA /* SSPagarME.framework */;
+			productReference = 90AF1A9D556C22384ACB2398D13C7665 /* SwiftyRSA.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -370,73 +427,120 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 24BF68E980C2D0863C2785CA0A9CB7EE /* Products */;
+			productRefGroup = DAC36329FA2FBB40870A521336E7B43E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4B344E1B59323125AFA7D00E45808F8B /* Pods-Example */,
-				862DCF24583CF8C8C822426568C96CBF /* SSPagarME */,
-				2BE07A80DDFE0596FA483BC86BF8475F /* SwiftyRSA */,
+				AB271A93B99DDEF314731CBB68FA4EB9 /* Pods-SSPagarME_Example */,
+				3654AC99321958602A793162451CCC67 /* Pods-SSPagarME_Tests */,
+				85642A9C2B533B6183AA6365501D0366 /* SSPagarME */,
+				F643092E2F564C30F007C914FA53A5C7 /* SwiftyRSA */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		64E02FC5D66A64E7247E802D656D4F4D /* Sources */ = {
+		441207B34F451A2A4A555BB8182A2781 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23E31E6A68D95BE8A6E4D603B7547884 /* Pods-Example-dummy.m in Sources */,
+				5CA3BF93DA3CFC8CA7245963A5EC27B5 /* Pods-SSPagarME_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84078FF550CD6326536365D25D3D4629 /* Sources */ = {
+		7884D95272E278C7E890099750E97E9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF4375BBB57B74549AAA747E51BAED88 /* SSPagarME-dummy.m in Sources */,
-				3D71F9A12D8FD8BDD80E69FD47FC83EE /* SSPagarME.swift in Sources */,
+				4A7F5638DDCAD525E7260F6AAF25792C /* Pods-SSPagarME_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD90507A48850D28BBAA8755D10647C8 /* Sources */ = {
+		9CCA454799EE5E77E70AC5A74C646E50 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3FF4E68478BAFA1484B0114DE650498 /* Data+SHA.swift in Sources */,
-				611EDFD818C286B3E543D32C8B2751B3 /* NSData+SHA.m in Sources */,
-				4106699628C70F46919E45C19E740A37 /* SwiftyRSA-dummy.m in Sources */,
-				A107DC9E0B2FA3384BA69DC2A387CA46 /* SwiftyRSA.swift in Sources */,
+				AC5DA1930FA85BAD67A5DB5CD5B9AA64 /* Data+SHA.swift in Sources */,
+				3FFFAD98257C88779A8012444828D51C /* NSData+SHA.m in Sources */,
+				4D623510F777B625FAF60C9A74CE8C2F /* SwiftyRSA-dummy.m in Sources */,
+				F227C8C313C9BE53A1CECA8629ABF84A /* SwiftyRSA.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FBB905C3D9EA6EE377C3CA11E32ABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48F0510E3A8402402481B9E267FA916 /* LICENSE in Sources */,
+				2E9E9809DDFEE1D43BD8AF43218E9CDC /* README.md in Sources */,
+				4346FA40127F3089352F226EB3B19868 /* SSPagarME-dummy.m in Sources */,
+				20CFC8A87E3085AD7EFEF02BEB72635D /* SSPagarME.podspec in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5776AADD109FA62061D0D0274CB4D25A /* PBXTargetDependency */ = {
+		1B9D9AEE0432DE9446CA4E667CC7CD35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyRSA;
+			target = F643092E2F564C30F007C914FA53A5C7 /* SwiftyRSA */;
+			targetProxy = A01011BBD7B3341FC816E954AB884DC1 /* PBXContainerItemProxy */;
+		};
+		6403695A50DDD51B1D12D7720469D5D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyRSA;
+			target = F643092E2F564C30F007C914FA53A5C7 /* SwiftyRSA */;
+			targetProxy = 805BE7B69E0B7B446960221ED8E2FB45 /* PBXContainerItemProxy */;
+		};
+		C29E922E8196EDDBC4CBDB8723AE55E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SSPagarME;
-			target = 862DCF24583CF8C8C822426568C96CBF /* SSPagarME */;
-			targetProxy = 38C14FC75DFBD63DB9732F7ACC4C1A7F /* PBXContainerItemProxy */;
-		};
-		607CAD06E9EA8E77160DE5F929029AE0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyRSA;
-			target = 2BE07A80DDFE0596FA483BC86BF8475F /* SwiftyRSA */;
-			targetProxy = 45D3D87BC7163E8A6AC4F225CE9B41A2 /* PBXContainerItemProxy */;
-		};
-		93F63F4FC09CF612B53D7D95849C5DAA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyRSA;
-			target = 2BE07A80DDFE0596FA483BC86BF8475F /* SwiftyRSA */;
-			targetProxy = 02F8407EB627DE5DF7A93F6DB754886D /* PBXContainerItemProxy */;
+			target = 85642A9C2B533B6183AA6365501D0366 /* SSPagarME */;
+			targetProxy = 9CC0AEE78C69B5D3D46C42AF0AE947EA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		00B8CA99D32CC0E401179E609EF4BD7F /* Debug */ = {
+		1C179C89C3B3D7C505EFEAEFB9233B16 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 149054C495E8EC590CAB4C524133016F /* Pods-Example.debug.xcconfig */;
+			baseConfigurationReference = 138D2FDAC94CC3BF656B67C3360F7295 /* Pods-SSPagarME_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SSPagarME_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SSPagarME_Example/Pods-SSPagarME_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SSPagarME_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C737CDD76C6281D52E8920B25873CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D484530CCBFD34667715952DF60CFA6 /* Pods-SSPagarME_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -449,30 +553,99 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SSPagarME_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SSPagarME_Tests/Pods-SSPagarME_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Example;
+				PRODUCT_NAME = Pods_SSPagarME_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		2376FE9579BB1DB4BF1F9D3648425DA1 /* Debug */ = {
+		2FA11AB745783BB84B3361D03CB39701 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6994F96BC90EE017FBEBD36C5EDC3781 /* SSPagarME.xcconfig */;
+			baseConfigurationReference = 8F7511971A7BC0C19220A456FC950963 /* Pods-SSPagarME_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SSPagarME_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SSPagarME_Example/Pods-SSPagarME_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SSPagarME_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42D3036160AB9B34FA58B396E1338310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC1DA25EC163EE27F1580C5277DD5067 /* SwiftyRSA.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyRSA/SwiftyRSA-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyRSA/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyRSA/SwiftyRSA.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyRSA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BB219EE0E60E188D80A53BE5071214C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9B3E9A737133519894BC9C042019676 /* SSPagarME.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -488,14 +661,14 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SSPagarME/SSPagarME-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SSPagarME/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SSPagarME/SSPagarME.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = SSPagarME;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -546,40 +719,9 @@
 			};
 			name = Debug;
 		};
-		626F05519B5E7624E03135EA04374886 /* Release */ = {
+		7B2B7A25AAC35697BF671FA0DC022543 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC1DA25EC163EE27F1580C5277DD5067 /* SwiftyRSA.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyRSA/SwiftyRSA-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyRSA/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyRSA/SwiftyRSA.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SwiftyRSA;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6CD7C3DCA96D4DF2AB767FCC66164569 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6994F96BC90EE017FBEBD36C5EDC3781 /* SSPagarME.xcconfig */;
+			baseConfigurationReference = A9B3E9A737133519894BC9C042019676 /* SSPagarME.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -595,50 +737,19 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SSPagarME/SSPagarME-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SSPagarME/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SSPagarME/SSPagarME.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = SSPagarME;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		81E4680FE327D5F4A2981D68BCC688D7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC1DA25EC163EE27F1580C5277DD5067 /* SwiftyRSA.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyRSA/SwiftyRSA-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyRSA/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyRSA/SwiftyRSA.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwiftyRSA;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -680,9 +791,9 @@
 			};
 			name = Release;
 		};
-		DD83F1024BB4D63DA08385CB495D4BD0 /* Release */ = {
+		EF58DD4D8C56CA53C684907B3B6E86B7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E512A5F985F876750237FD237C3AEEDA /* Pods-Example.release.xcconfig */;
+			baseConfigurationReference = C7ABA2146D05476702FED62F4D196BE4 /* Pods-SSPagarME_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -695,34 +806,68 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SSPagarME_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SSPagarME_Tests/Pods-SSPagarME_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Example;
+				PRODUCT_NAME = Pods_SSPagarME_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
+		FF543FF70ED316085E7C6CCC4101F56E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC1DA25EC163EE27F1580C5277DD5067 /* SwiftyRSA.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyRSA/SwiftyRSA-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyRSA/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyRSA/SwiftyRSA.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyRSA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2845C2EB70BC32F5F58A4690D0A267CB /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
+		123DDD9DCD7562FC7AC027A9F467EF17 /* Build configuration list for PBXNativeTarget "Pods-SSPagarME_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00B8CA99D32CC0E401179E609EF4BD7F /* Debug */,
-				DD83F1024BB4D63DA08385CB495D4BD0 /* Release */,
+				2FA11AB745783BB84B3361D03CB39701 /* Debug */,
+				1C179C89C3B3D7C505EFEAEFB9233B16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -736,20 +881,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9987DD7A8A382995EE989C8A65B0B668 /* Build configuration list for PBXNativeTarget "SSPagarME" */ = {
+		3BCC126A110033E4DF9D77F6730BAAAA /* Build configuration list for PBXNativeTarget "SSPagarME" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2376FE9579BB1DB4BF1F9D3648425DA1 /* Debug */,
-				6CD7C3DCA96D4DF2AB767FCC66164569 /* Release */,
+				4BB219EE0E60E188D80A53BE5071214C /* Debug */,
+				7B2B7A25AAC35697BF671FA0DC022543 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F9653D61DD7A55FCF112EAFCFB193A38 /* Build configuration list for PBXNativeTarget "SwiftyRSA" */ = {
+		49CF8C9D313190477EA91FF09FADE157 /* Build configuration list for PBXNativeTarget "Pods-SSPagarME_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81E4680FE327D5F4A2981D68BCC688D7 /* Debug */,
-				626F05519B5E7624E03135EA04374886 /* Release */,
+				2C737CDD76C6281D52E8920B25873CA5 /* Debug */,
+				EF58DD4D8C56CA53C684907B3B6E86B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FF5026D72B1ADAEB40E194D55116584 /* Build configuration list for PBXNativeTarget "SwiftyRSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF543FF70ED316085E7C6CCC4101F56E /* Debug */,
+				42D3036160AB9B34FA58B396E1338310 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
