@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SSPagarME"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "Facilitador do gateway de pagamento pagar.me"
   s.description  = <<-DESC
                   "Facilita a transação com cartão de crédito com o pagar.me, gerando o card_hash necessário."
