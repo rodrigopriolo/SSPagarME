@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         // Pagar.me
-        SSPagarME.storeKeys(apiKey: "ak_test_y6pqhFlb2tHQAckhSrPqgFzal1hIFG", encryptionKey: "ek_test_acE6xzLS6ZGJGCg8L9jRhWegbbuWRH")
+        SSPagarME.storeKeys(apiKey: "api_key", encryptionKey: "encryption_key")
         
         return true
     }
