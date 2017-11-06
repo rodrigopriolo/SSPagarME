@@ -1,7 +1,9 @@
 PODS:
-  - SSPagarME (1.0.1):
-    - SwiftyRSA (~> 0.5.0)
-  - SwiftyRSA (0.5.0)
+  - SSPagarME (1.1):
+    - SwiftyRSA
+  - SwiftyRSA (1.3.0):
+    - SwiftyRSA/ObjC (= 1.3.0)
+  - SwiftyRSA/ObjC (1.3.0)
 
 DEPENDENCIES:
   - SSPagarME (from `../`)
@@ -11,9 +13,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SSPagarME: 8f817395fb2200f866fa43839f1945679fcc1289
-  SwiftyRSA: e73c44402451ad74c603cc87f7cd8a6d6f418138
+  SSPagarME: 78594e28a24041105a836db022de99bbedb90c87
+  SwiftyRSA: 28e1c9ab1f396fd3001d197ba03e1153b524d155
 
-PODFILE CHECKSUM: e40aa26f08dfbae696d502b3142e22e0985d2027
+PODFILE CHECKSUM: 6729474943438db8eb5a989fe3657bfe4f7feacd
 
-COCOAPODS: 1.1.0.rc.2
+COCOAPODS: 1.3.1

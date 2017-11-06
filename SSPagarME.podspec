@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SSPagarME"
-  s.version      = "1.0.2"
+  s.version      = "1.1"
   s.summary      = "Facilitador do gateway de pagamento pagar.me"
   s.description  = <<-DESC
                   "Facilita a transação com cartão de crédito com o pagar.me, gerando o card_hash necessário."
@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.source_files = "Pod", "Pod/Classes/*.{swift,h,m}"
   s.requires_arc = true
   s.frameworks   = 'Foundation'
-  s.dependency 'SwiftyRSA', '~> 0.5.0'
+  s.dependency 'SwiftyRSA'
 
 end

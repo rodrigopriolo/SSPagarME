@@ -35,19 +35,19 @@ public struct Card {
             return "Verifique o número do cartão"
         }
         
-        if self.cardHolderName == nil || (self.cardHolderName?.characters.count)! <= 0 {
+        if self.cardHolderName == nil || (self.cardHolderName?.count)! <= 0 {
             return "Verifique o nome do cartão"
         }
         
-        if self.cardExpirationMonth == nil || (self.cardExpirationMonth?.characters.count)! < 2 || (Int(self.cardExpirationMonth!)! <= 0 || Int(self.cardExpirationMonth!)! > 12) {
+        if self.cardExpirationMonth == nil || (self.cardExpirationMonth?.count)! < 2 || (Int(self.cardExpirationMonth!)! <= 0 || Int(self.cardExpirationMonth!)! > 12) {
             return "Verifique o mês de expiração do cartão"
         }
         
-        if self.cardExpirationYear == nil || (self.cardExpirationYear?.characters.count)! < 2 || (Int(self.cardExpirationYear!)! <= 0 || Int(self.cardExpirationYear!)! > 99) {
+        if self.cardExpirationYear == nil || (self.cardExpirationYear?.count)! < 2 || (Int(self.cardExpirationYear!)! <= 0 || Int(self.cardExpirationYear!)! > 99) {
             return "Verifique o ano de expiração do cartão"
         }
         
-        if self.cardCVV == nil || self.cardCVV?.characters.count != 3 {
+        if self.cardCVV == nil || self.cardCVV?.count != 3 {
             return "Verifique o o código de segurança(CVV) do cartão"
         }
         
@@ -58,7 +58,7 @@ public struct Card {
         var luhn_sum = 0
         var digit_count = 0
         //reverse the card
-        for c in cardNumber.characters.reversed() {
+        for c in cardNumber.reversed() {
             //count digits
             //print(c.self)
             let this_digit = Int(String(c as Character))!
@@ -197,23 +197,25 @@ public class SSPagarME: NSObject {
                         let json = try JSONSerialization.jsonObject(with: data!, options: [])
                         if let jsonDict = json as? [String : Any]
                         {
-                            ////print("json: \(jsonDict)")
-                            ////print("err \(jsonDict["error"])")
+                            //print("json: \(jsonDict)")
+                            //print("err \(jsonDict["error"])")
                             
-                            let _id = jsonDict["id"] as! Int
-                            let publicKeyPEM = jsonDict["public_key"] as! String
-                            let swiftRSA = try SwiftyRSA.encryptString(self.card.cardHash(), publicKeyPEM: publicKeyPEM)
-                            ////print(String(format: "Sucess: %@_%@", String(_id), swiftRSA))
-                            success(["transition": String(format: "%@_%@", String(_id), swiftRSA)])
+                            if let error = jsonDict["error"] {
+                                failure(error as! String)
+                            } else {
+                                success(["transition": jsonDict])
+                            }
                         }
                     } catch let err as NSError {
-                        print(err.localizedDescription)
+                        //print(err.localizedDescription)
+                        failure(err.localizedDescription)
                     }
                 }
                 
                 dataTask.resume()
             } catch let err as NSError {
-                print(err.localizedDescription)
+                //print(err.localizedDescription)
+                failure(err.localizedDescription)
             }
         }) { (message) in
             failure(message)
@@ -242,9 +244,13 @@ public class SSPagarME: NSObject {
                     
                     let _id = jsonDict["id"] as! Int
                     let publicKeyPEM = jsonDict["public_key"] as! String
-                    let swiftRSA = try SwiftyRSA.encryptString(self.card.cardHash(), publicKeyPEM: publicKeyPEM)
                     
-                    success(String(format: "%@_%@", String(_id), swiftRSA))
+                    let clear = try ClearMessage(string: self.card.cardHash(), using: .utf8)
+                    let publicKey = try PublicKey(pemEncoded: publicKeyPEM)
+                    let encrypted = try clear.encrypted(with: publicKey, padding: .PKCS1)
+                    let base64String = encrypted.base64String
+                    
+                    success(String(format: "%@_%@", String(_id), base64String))
                 }
                 
                 
@@ -252,13 +258,15 @@ public class SSPagarME: NSObject {
                 {
                     let err = jsonErr["error"]
                     if let _ = err {
-                        print("err \(err)")
+                        print("err \(String(describing: err))")
+                        failure(String(describing: err))
                     }
                 }
                 
                 
             } catch let err as NSError {
-                print("Error: \(err.localizedDescription)")
+                //print("Error: \(err.localizedDescription)")
+                failure(err.localizedDescription)
             }
         }
         
